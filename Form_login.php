@@ -10,28 +10,26 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-
 alpha1/css/bootstrap.min.css" integrity="sha384-
 r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
 crossorigin="anonymous">
+<p class="text-white-50 bg-dark "> LOGIN </p>
 </head>
 <body>
-<br>
+<br><br><br><br><br><br><br><br><br><br>
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+
+</body>
+</html>
 <div class="container">
 <form name="frmlogin" method="post" action="login.php">
-<p> </p>
-<p><b> Login Form </b></p>
-<p> ชื่อผู้ใช้ :
-<input type="text" id="Username" required name="Username"
-
-placeholder="Username">
-</p>
-<p>รหสัผา่ น :
-<input type="password" id="Password" required name="Password"
-
-placeholder="Password">
-</p>
+<p> USERNAME : <input type="text" id="Username" required name="Username"placeholder="Username"></p>
+<p>PASSWORD : <input type="password" id="Password" required name="Password"placeholder="Password"></p>
 <p>
-
-<button type="submit" class="btn btn-warning" >Login</button>
+<button type="submit" class="btn btn-dark">SUBMIT</button>
 &nbsp;&nbsp;
-<button type="reset" class="btn btn-warning" >Reset</button>
+<button type="reset" class="btn btn-dark">RESET</button>
 <br>
 </p>
 </form>
