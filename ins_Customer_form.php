@@ -14,7 +14,12 @@
         <hr>
         <h1 class="mt-5">เพิ่มข้อมูล</h1>
         <hr>
-        
+<style>
+body 
+{
+    background-color: #BFACE0;
+}
+</style>
 <div class="mb-3">
 <form  action="Save_Customer.php" method="post">
             <div class="mb-3">

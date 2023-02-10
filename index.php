@@ -11,7 +11,11 @@ include('session.php');
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 </head>
 <body>
-
+<style>
+    body {
+  background-color: #BFACE0;
+}
+</style>
 <div class="container">
         <a href="index.php" class="btn btn-dark">หน้าแรก</a>
         <a href="Customer_form.php" class="btn btn-secondary">ข้อมูลลูกค้า</a>

@@ -15,6 +15,9 @@ crossorigin="anonymous">
 <body>
 <br><br><br><br><br><br><br><br><br><br>
 <style>
+    body {
+  background-color: #A084CA;
+}
 h1 {text-align: center;}
 p {text-align: center;}
 div {text-align: center;}
